@@ -28,3 +28,4 @@ set clipboard=autoselect,exclude:.*
 set formatoptions+=r " auto insert comment leader after hitting <enter> 
 syntax on " turn on syntax highlighting
 set guifont=LiberationMono\ 12  " nice font for gvim
+colorscheme elflord
