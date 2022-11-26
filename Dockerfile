@@ -6,3 +6,5 @@ RUN apt install -y openjdk-17-jdk
 
 COPY .vimrc /root/
 RUN mkdir /root/.backup
+
+CMD ["tail", "-f", "/dev/null"]
